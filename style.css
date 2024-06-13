@@ -1,0 +1,239 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap');
+
+body {
+
+      font-family: "Oswald", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+        margin: 0;
+        padding: 0;
+
+}
+
+.container::before {
+    content: ""; /* Conteúdo vazio para o pseudo-elemento */
+    position: absolute; /* Posicionamento absoluto */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    z-index: -1; /* Posicionar atrás do conteúdo */
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Conteúdo na vertical */
+    align-items: center; /* Alinha horizontalmente ao centro */
+    justify-content: center; /* Alinha verticalmente ao centro */
+    max-width: 1400px; /* Largura máxima do container */
+    margin: 0 auto; /* Centralizar na tela horizontalmente */
+    position: relative; /* Posicionamento relativo para o gradiente */
+    
+    padding: 20px; /* Espaçamento interno */
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.welcome {
+    color: white;
+}
+
+.ul-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.li-menu {
+    padding: 20px;
+    text-decoration: none;
+}
+.menu {
+    
+    padding: 10px 0;
+    text-align: center;  
+}
+
+.button {
+    background-color: #4682B4; /* Cor de fundo azul claro */
+            border: none; /* Remover bordas */
+            color: white; /* Cor do texto */
+            padding: 15px 32px; /* Espaçamento interno */
+            text-align: center; /* Centralizar texto */
+            text-decoration: none; /* Remover sublinhado */
+            display: inline-block; /* Mostrar como bloco inline */
+            font-size: 16px; /* Tamanho da fonte */
+            margin: 4px 2px; /* Margem */
+            cursor: pointer; /* Alterar cursor ao passar o mouse */
+            border-radius: 12px; /* Bordas arredondadas */
+            transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+            margin: 5px;
+
+}
+
+.secao {
+    padding: 40px 0;
+}
+
+.secao h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.secao-contato form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.faleconosco{
+    background-color: #333;
+    margin-top: 60px;
+    width: 100%px;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-fale{
+    width: 1200px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.secao-contato input,
+.secao-contato textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.secao-sobre {
+    display: flex;
+    align-items: center;
+    width: 1400px;
+    border-radius: 30px;
+    padding: 30px;
+    background-color: #191970;  
+}
+
+
+.logo-sobre{
+    border-radius: 10px;
+    width: 80%;
+    margin: 50px;
+}
+
+.logo-header {
+    width: 13%;
+}
+
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: #191970;
+}
+
+.footer {
+    background-color: #191970;
+    height: 200px;
+    width: 1900px;
+    color: white;
+}
+.teste {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1400px;
+}
+
+
+.secao-termos{
+    margin-top: 100px;
+    background-color: #333;
+    width: 1900px;
+
+}
+
+.secao-termos h2{
+    margin-left: 40px;
+    color: white;
+
+}
+
+
+footer {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.footer-links {
+    margin: 10px 0;
+}
+
+input {
+    border-radius: 10px;
+}
+
+textarea {
+    border-radius: 10px;
+}
+
+i {
+    font-size: 26px; /* Tamanho do ícone */
+    padding: 30px;
+    cursor: pointer;
+}
+
+.text-fale {
+    margin-left: 40px;
+}
+
+.icon-fale {
+    margin-right: 20px;
+}
